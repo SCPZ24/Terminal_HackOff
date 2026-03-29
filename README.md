@@ -22,9 +22,10 @@
 如果你是MacOS用户，后三个都可以brew install。
 
 ## 设置流程
-1. 下载Ghostty终端应用。
+1. 下载Ghostty终端应用
+
 配置方法为[Ghostty 设置](GhosttySetup/README.md)。
-2. 下载Crush工具。
+2. 下载Crush工具
 
 你可以把Crush理解为开源版的Claude Code。
 但是Crush有TUI，所以在帅这一块，Crush吊打Claude Code。
@@ -33,16 +34,19 @@
 
 下载好后，在终端上输入crush回车启动Crush TUI。
 
-3. 下载yazi工具。
+3. 下载yazi工具
+
 以前终端上只能玩ls, cd。
 
 有了yazi，现在可以直接可视化地在终端上导航。
 配置方法为[yazi 设置](YaziSetup/README.md)。
 
-4. 下载lazygit工具。
+4. 下载lazygit工具
+
 可视化地在终端上操作git仓库。
 
 5. 设置领域展开
+
 现在，小而美的工具已经准备完毕。
 
 我们来实现上面图片中的效果。

@@ -1,0 +1,42 @@
+# Yazi configuration file
+
+[preview]
+# Maximum preview size in bytes (default: 1 MiB)
+max_size = 1048576
+
+# Whether to preview images (requires `viu` or `chafa`)
+image_preview = true
+
+# Whether to preview archives (requires `atool` or `bsdtar`)
+archive_preview = true
+
+[manager]
+# Show hidden files
+show_hidden = true
+
+# Sort by
+sort_by = "name"
+sort_dir_first = true
+sort_reverse = false
+
+# Layout
+layout = "default"
+
+[tab]
+# Tab bar position: "top", "bottom", "left", "right"
+position = "top"
+
+[status]
+# Status bar position: "top", "bottom"
+position = "bottom"
+
+[input]
+# Enable mouse support
+mouse = true
+
+[log]
+# Log level: "off", "error", "warn", "info", "debug", "trace"
+level = "warn"
+
+[mgr]
+show_hidden = true

@@ -25,6 +25,7 @@
 1. 下载Ghostty终端应用
 
 配置方法为[Ghostty 设置](GhosttySetup/README.md)。
+
 2. 下载Crush工具
 
 你可以把Crush理解为开源版的Claude Code。

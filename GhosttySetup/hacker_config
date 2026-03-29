@@ -1,0 +1,109 @@
+# ============================================
+# Ghostty Terminal - Hacker Theme Configuration
+# ============================================
+# File: ~/.config/ghostty/config
+# Reload: Cmd+Shift+, (macOS)
+# View options: ghostty +show-config --default --docs
+
+# --- Typography ---
+font-family = "Maple Mono NF CN"
+font-size = 14
+font-thicken = true
+adjust-cell-height = 2
+
+# --- Theme and Colors ---
+# Classic hacker theme: black background with green text
+# Using custom colors instead of theme
+# theme = custom  # Commented out since we're using custom colors directly
+
+# Custom color scheme
+background = #000000
+foreground = #00ff00
+cursor-color = #00ff00
+selection-background = #003300
+selection-foreground = #00ff00
+
+# ANSI colors
+palette = 0=#000000
+palette = 1=#ff0000
+palette = 2=#00ff00
+palette = 3=#ffff00
+palette = 4=#0000ff
+palette = 5=#ff00ff
+palette = 6=#00ffff
+palette = 7=#ffffff
+palette = 8=#555555
+palette = 9=#ff5555
+palette = 10=#55ff55
+palette = 11=#ffff55
+palette = 12=#5555ff
+palette = 13=#ff55ff
+palette = 14=#55ffff
+palette = 15=#ffffff
+
+# --- Window and Appearance ---
+background-opacity = 1.0
+background-blur-radius = 0
+macos-titlebar-style = transparent
+window-padding-x = 10
+window-padding-y = 8
+window-save-state = always
+window-theme = dark
+
+# --- Cursor ---
+cursor-style = block
+cursor-style-blink = true
+cursor-opacity = 1.0
+
+# --- Mouse ---
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+
+# --- Quick Terminal (Quake-style dropdown) ---
+quick-terminal-position = top
+quick-terminal-screen = mouse
+quick-terminal-autohide = true
+quick-terminal-animation-duration = 0.15
+
+# --- Security ---
+clipboard-paste-protection = true
+clipboard-paste-bracketed-safe = true
+
+# --- Shell Integration ---
+shell-integration = detect
+
+# --- Keybindings ---
+# Tabs
+keybind = cmd+t=new_tab
+keybind = cmd+shift+left=previous_tab
+keybind = cmd+shift+right=next_tab
+keybind = cmd+w=close_surface
+
+# Splits
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+keybind = cmd+alt+left=goto_split:left
+keybind = cmd+alt+right=goto_split:right
+keybind = cmd+alt+up=goto_split:top
+keybind = cmd+alt+down=goto_split:bottom
+
+# Font size
+keybind = cmd+plus=increase_font_size:1
+keybind = cmd+minus=decrease_font_size:1
+keybind = cmd+zero=reset_font_size
+
+# Quick terminal global hotkey
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+
+# Splits management
+keybind = cmd+shift+e=equalize_splits
+keybind = cmd+shift+f=toggle_split_zoom
+# Fast Layout
+keybind = cmd+g=run_script:~/.config/ghostty/project_layout
+
+# Reload config
+keybind = cmd+shift+comma=reload_config
+
+# --- Performance ---
+# Generous scrollback (25MB)
+scrollback-limit = 25000000

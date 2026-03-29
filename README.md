@@ -20,5 +20,9 @@
 - [lazygit](https://github.com/jesseduffield/lazygit)
 如果你是MacOS用户，后三个都可以brew install。
 
+# 设置流程
+1. 下载Ghostty终端应用。
+配置方法为[Ghostty 设置](GhosttySetup/README.md)。
+
 ## 欢迎贡献
 如果你知道更帅的终端工作环境，直接端Pull Request上来！

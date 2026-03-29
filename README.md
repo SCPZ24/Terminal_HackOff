@@ -15,3 +15,10 @@
 
 ## 配置安装
 - [Ghostty](https://ghostty.org/)
+- [crush](https://github.com/charmbracelet/crush)
+- [yazi](https://github.com/sxyazi/yazi)
+- [lazygit](https://github.com/jesseduffield/lazygit)
+如果你是MacOS用户，后三个都可以brew install。
+
+## 欢迎贡献
+如果你知道更帅的终端工作环境，直接端Pull Request上来！

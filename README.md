@@ -37,5 +37,9 @@
 有了yazi，现在可以直接可视化地在终端上导航。
 配置方法为[yazi 设置](YaziSetup/README.md)。
 
+4. 下载lazygit工具。
+可视化地在终端上操作git仓库。
+
+
 ## 欢迎贡献
 如果你知道更帅的终端工作环境，直接端Pull Request上来！
